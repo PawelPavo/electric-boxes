@@ -1,0 +1,34 @@
+[
+    {
+        "circuit": 1,
+        "remarks": "Refrigerator",
+        "amps": 20,
+        "circuit_2": 2,
+        "remarks_2": "Microwave",
+        "amps_2": 20
+    },
+    {
+        "circuit": 3,
+        "remarks": "Stove",
+        "amps": 20,
+        "circuit_2": 4,
+        "remarks_2": "Bed Lights",
+        "amps_2": 20
+    },
+    {
+        "circuit": 5,
+        "remarks": "Bedroom",
+        "amps": 15,
+        "circuit_2": 6,
+        "remarks_2": "Hallway",
+        "amps_2": 15
+    },
+    {
+        "circuit": 7,
+        "remarks": "Office",
+        "amps": 15,
+        "circuit_2": 8,
+        "remarks_2": "Bathroom",
+        "amps_2": 15
+    }
+  ]
