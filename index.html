@@ -8,8 +8,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <link rel="stylesheet" href="sweetalert2.min.css">
-
 
 </head>
 
@@ -27,14 +25,13 @@
                 for (let i = 0; i < data.length; i++) {
                     let tr = document.createElement("tr");
                     tr.innerHTML = `
-                                    <td>
-                                        <button onclick="myFunction('<div>${data[i].remarks}</div>')" class="btn btn-secondary w-100 px-3"><div class="row"><div class="col-lg-9 my-auto">${data[i].remarks}</div> <div class="col-lg-3 badge text-bg-light my-1">${data[i].amps} Amps</div></div></button>
+                                    <td class="text-center">
+                                        <button onclick="myFunction('<p>Breaker position ${data[i].circuit}</p><h4>${data[i].remarks}</h4><p>${data[i].amps} AMPS</p>')" class="col-12 col-md-8 btn btn-sm btn-secondary py-1 shadow-sm">${data[i].remarks}</button>
                                     </td>
                                     <td class="text-center pt-3">${data[i].circuit}</td>
                                     <td class="text-center pt-3">${data[i].circuit_2}</td>
-                                    <td>
-                                        <button onclick="myFunction('<div>${data[i].remarks_2}</div>')" class="btn btn-secondary w-100 px-3"><div class="row"><div class="col-lg-9 my-auto">${data[i].remarks_2}</div> <div class="col-lg-3 badge text-bg-light my-1">${data[i].amps_2} Amps</div></div></button>
-                                    </td>
+                                    <td class="text-center">
+                                        <button onclick="myFunction('<p>Breaker position ${data[i].circuit_2}</p><h4>${data[i].remarks_2}</h4><p>${data[i].amps_2} AMPS</p>')" class="col-12 col-md-8 btn btn-sm btn-secondary py-1 shadow-sm">${data[i].remarks_2}</button></td>
                                     `
 
                     mainContainer.appendChild(tr);
