@@ -50,6 +50,74 @@
 
         </script>
 
+<script type="text/javascript">
+    (async function panel_B() {
+        const res = await fetch('data_B.json');
+        const data = await res.json();
+        console.log(data)
+        let mainContainer = document.getElementById("myData_B");
+        for (let i = 0; i < data.length; i++) {
+            let tr = document.createElement("tr");
+            tr.innerHTML = `
+                            <td class="text-center">
+                                <button onclick="myFunction('<p>Breaker position ${data[i].circuit}</p><h4>${data[i].remarks}</h4><p>${data[i].amps} AMPS</p>')" class="col-12 col-md-8 btn btn-sm btn-secondary py-1 shadow-sm">${data[i].remarks}</button>
+                            </td>
+                            <td class="text-center pt-3">${data[i].circuit}</td>
+                            <td class="text-center pt-3">${data[i].circuit_2}</td>
+                            <td class="text-center">
+                                <button onclick="myFunction('<p>Breaker position ${data[i].circuit_2}</p><h4>${data[i].remarks_2}</h4><p>${data[i].amps_2} AMPS</p>')" class="col-12 col-md-8 btn btn-sm btn-secondary py-1 shadow-sm">${data[i].remarks_2}</button></td>
+                            `
+
+            mainContainer.appendChild(tr);
+
+        }
+    })();
+
+    // function myFunction(data) {
+    //     Swal.fire({
+    //     html: data, 
+    //     icon: 'info', 
+    //     confirmButtonText: 'Close'})
+    // }
+
+
+
+</script>
+
+<script type="text/javascript">
+    (async function panel_C() {
+        const res = await fetch('data_C.json');
+        const data = await res.json();
+        console.log(data)
+        let mainContainer = document.getElementById("myData_B");
+        for (let i = 0; i < data.length; i++) {
+            let tr = document.createElement("tr");
+            tr.innerHTML = `
+                            <td class="text-center">
+                                <button onclick="myFunction('<p>Breaker position ${data[i].circuit}</p><h4>${data[i].remarks}</h4><p>${data[i].amps} AMPS</p>')" class="col-12 col-md-8 btn btn-sm btn-secondary py-1 shadow-sm">${data[i].remarks}</button>
+                            </td>
+                            <td class="text-center pt-3">${data[i].circuit}</td>
+                            <td class="text-center pt-3">${data[i].circuit_2}</td>
+                            <td class="text-center">
+                                <button onclick="myFunction('<p>Breaker position ${data[i].circuit_2}</p><h4>${data[i].remarks_2}</h4><p>${data[i].amps_2} AMPS</p>')" class="col-12 col-md-8 btn btn-sm btn-secondary py-1 shadow-sm">${data[i].remarks_2}</button></td>
+                            `
+
+            mainContainer.appendChild(tr);
+
+        }
+    })();
+
+    // function myFunction(data) {
+    //     Swal.fire({
+    //     html: data, 
+    //     icon: 'info', 
+    //     confirmButtonText: 'Close'})
+    // }
+
+
+
+</script>
+
 <div class="row justify-content-center">
             <div class="col-md-9">
                 <div class="accordion" id="accordionExample">
@@ -89,72 +157,20 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <div class="row my-3 justify-content-center">200 Amps - Service: 120V/240V - Poles: 10
+                                <div class="row my-3 justify-content-center">70 Amps - Service: 120V/240V - Poles: 10
                                 </div>
 
                                 <div class="table-responsive">
-                                    <table class="table  table-striped table-bordered">
+                                    <table class="table table-striped table-bordered">
                                         <thead>
-                                            <tr>
-                                                <th scope="col">Amps</th>
+                                            <tr class="text-center">
                                                 <th scope="col">Remarks</th>
-                                                <th scope="col">Circuit #</th>
-                                                <th scope="col">Circuit #</th>
+                                                <th scope="col">#</th>
+                                                <th scope="col">#</th>
                                                 <th scope="col">Remarks</th>
-                                                <th scope="col">Amps</th>
                                             </tr>
                                         </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-                                                <td>1</td>
-                                                <td>2</td>
-                                                <td>Space</td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>3</td>
-                                                <td>4</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>5</td>
-                                                <td>6</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>7</td>
-                                                <td>8</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>9</td>
-                                                <td>10</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-
-                                        </tbody>
+                                        <tbody id="myData_B"></tbody>
                                     </table>
                                 </div>
                             </div>
@@ -169,92 +185,19 @@
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <div class="row my-3 justify-content-center">75 Amps - Service: 120V/240V - Poles: 14
+                                <div class="row my-3 justify-content-center">200 Amps - Service: 120V/240V - Poles: 8
                                 </div>
-
                                 <div class="table-responsive">
-                                    <table class="table text-center table-striped table-bordered">
+                                    <table class="table table-striped table-bordered">
                                         <thead>
-                                            <tr>
-                                                <th scope="col">Amps</th>
+                                            <tr class="text-center">
                                                 <th scope="col">Remarks</th>
-                                                <th scope="col">Circuit #</th>
-                                                <th scope="col">Circuit #</th>
+                                                <th scope="col">#</th>
+                                                <th scope="col">#</th>
                                                 <th scope="col">Remarks</th>
-                                                <th scope="col">Amps</th>
                                             </tr>
                                         </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-                                                <td>1</td>
-                                                <td>2</td>
-                                                <td>Space</td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>3</td>
-                                                <td>4</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>5</td>
-                                                <td>6</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>7</td>
-                                                <td>8</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>9</td>
-                                                <td>10</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>11</td>
-                                                <td>12</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Space</td>
-
-                                                <td>13</td>
-                                                <td>14</td>
-                                                <td>Space</td>
-
-                                                <td>1</td>
-                                            </tr>
-
-                                        </tbody>
+                                        <tbody id="myData_B"></tbody>
                                     </table>
                                 </div>
                             </div>
