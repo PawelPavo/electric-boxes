@@ -22,15 +22,15 @@
         "amps": 50,
         "circuit_2": 4,
         "remarks_2": "Bathroom Mirror + Dinning Outlets",
-        "amps_2": 50
+        "amps_2": 20
     },
     {
         "circuit": 5,
         "remarks": "Car Charger",
-        "amps": 15,
+        "amps": 50,
         "circuit_2": 6,
         "remarks_2": "Bathroom GFCI",
-        "amps_2": 50
+        "amps_2": 20
     },
     
     {
