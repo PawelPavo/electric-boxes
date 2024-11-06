@@ -1,7 +1,7 @@
 [
     {
         "circuit": "1",
-        "remarks": "",
+        "remarks": "Empty",
         "amps": 0,
         "circuit_2": 2,
         "remarks_2": "A/C Compressor",
@@ -9,7 +9,7 @@
     },
     {
         "circuit": "3",
-        "remarks": "",
+        "remarks": "Empty",
         "amps": 0,
         "circuit_2": 4,
         "remarks_2": "A/C Compressor",
@@ -17,7 +17,7 @@
     },
     {
         "circuit": 5,
-        "remarks": "",
+        "remarks": "Empty",
         "amps": 15,
         "circuit_2": 6,
         "remarks_2": "Exterior GFCI Outlets",
@@ -25,10 +25,10 @@
     },
     {
         "circuit": 7,
-        "remarks": "",
+        "remarks": "Empty",
         "amps": 15,
         "circuit_2": 8,
-        "remarks_2": "",
+        "remarks_2": "Empty",
         "amps_2": 0
     }
   ]
