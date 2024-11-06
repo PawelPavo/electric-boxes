@@ -34,84 +34,92 @@
     
     {
         "circuit": 9,
-        "remarks": "Front Bedroom Lights + Fan",
+        "remarks": "Smoke Detectors",
         "amps": 20,
         "circuit_2": 10,
-        "remarks_2": "HWH",
+        "remarks_2": "Master Bath GFCI + Mirror",
         "amps_2": 20
     },
     {
         "circuit": 11,
-        "remarks": "Master Bath Lights",
+        "remarks": "Master Bedroom Lights + Fan",
         "amps": 20,
         "circuit_2": 12,
-        "remarks_2": "HWH",
+        "remarks_2": "Kitchen GFCI",
         "amps_2": 20
     },
     {
         "circuit": 13,
-        "remarks": "Kitchen + Dinning Lights",
+        "remarks": "Dishwasher",
         "amps": 15,
         "circuit_2": 14,
-        "remarks_2": "Stove",
+        "remarks_2": "Outlet - Sink",
         "amps_2": 15
     },
     {
         "circuit": 15,
-        "remarks": "Hallway + Livingroom + Porch Lights",
+        "remarks": "Refrigerator",
         "amps": 15,
         "circuit_2": 16,
-        "remarks_2": "Stove",
+        "remarks_2": "Livingroom Outlets",
         "amps_2": 15
     },
 
     {
         "circuit": 17,
-        "remarks": "Front Bedroom Lights + Fan",
+        "remarks": "Kitchen GFCI",
         "amps": 20,
-        "circuit_2": 18,
-        "remarks_2": "HWH",
+        "circuit_2": 16,
+        "remarks_2": "Livingroom + Front Bedrom Outlets",
         "amps_2": 20
     },
     {
         "circuit": 19,
-        "remarks": "Master Bath Lights",
+        "remarks": "Microwave",
         "amps": 20,
-        "circuit_2": 20,
-        "remarks_2": "HWH",
+        "circuit_2": 18,
+        "remarks_2": "Sub-Panel",
         "amps_2": 20
     },
     {
         "circuit": 21,
-        "remarks": "Kitchen + Dinning Lights",
+        "remarks": "Outdoor Lights",
         "amps": 15,
-        "circuit_2": 22,
-        "remarks_2": "Stove",
+        "circuit_2": 20,
+        "remarks_2": "Sub-Panel",
         "amps_2": 15
     },
     {
         "circuit": 23,
-        "remarks": "Hallway + Livingroom + Porch Lights",
+        "remarks": "Master Bedroom Outlets",
         "amps": 15,
-        "circuit_2": 24,
-        "remarks_2": "Stove",
+        "circuit_2": 22,
+        "remarks_2": "Empty",
         "amps_2": 15
     },
-    
+    {
+        "circuit": 23,
+        "remarks": "Front Bedroom Outlets",
+        "amps": 20,
+        "circuit_2": 24,
+        "remarks_2": "Empty",
+        "amps_2": 20
+    },
     {
         "circuit": 25,
-        "remarks": "Front Bedroom Lights + Fan",
+        "remarks": "A/C Handler",
         "amps": 20,
         "circuit_2": 26,
-        "remarks_2": "HWH",
+        "remarks_2": "Empty",
         "amps_2": 20
     },
     {
         "circuit": 27,
-        "remarks": "Master Bath Lights",
+        "remarks": "A/C Handler",
         "amps": 20,
         "circuit_2": 28,
-        "remarks_2": "HWH",
+        "remarks_2": "Empty",
         "amps_2": 20
     }
+
   ]
