@@ -2,51 +2,51 @@
 [
     {
         "circuit": "A",
-        "remarks": "Front Bedroom Lights + Fan",
+        "remarks": "MAIN",
         "amps": 15,
         "circuit_2": 1,
-        "remarks_2": "HWH",
+        "remarks_2": "Office Outlets",
         "amps_2": 60
     },
     {
         "circuit": "B",
-        "remarks": "Master Bath Lights",
+        "remarks": "MAIN",
         "amps": 15,
         "circuit_2": 2,
-        "remarks_2": "HWH",
+        "remarks_2": "Washer",
         "amps_2": 60
     },
     {
-        "circuit": 5,
-        "remarks": "Kitchen + Dinning Lights",
+        "circuit": 3,
+        "remarks": "Dryer",
         "amps": 15,
-        "circuit_2": 6,
-        "remarks_2": "Stove",
+        "circuit_2": 4,
+        "remarks_2": "Bathroom Mirror + Dinning Outlets",
         "amps_2": 50
     },
     {
-        "circuit": 7,
-        "remarks": "Hallway + Livingroom + Porch Lights",
+        "circuit": 5,
+        "remarks": "Dryer",
         "amps": 15,
-        "circuit_2": 8,
-        "remarks_2": "Stove",
+        "circuit_2": 6,
+        "remarks_2": "Bathroom GFCI",
         "amps_2": 50
     },
     
     {
-        "circuit": 9,
-        "remarks": "Smoke Detectors",
+        "circuit": 7,
+        "remarks": "Hallway + Bathroom Lights",
         "amps": 15,
-        "circuit_2": 10,
-        "remarks_2": "Master Bath GFCI + Mirror",
+        "circuit_2": 8,
+        "remarks_2": "Car Charger",
         "amps_2": 20
     },
     {
-        "circuit": 11,
-        "remarks": "Master Bedroom Lights + Fan",
+        "circuit": 9,
+        "remarks": "Office Lights",
         "amps": 15,
-        "circuit_2": 12,
-        "remarks_2": "Kitchen GFCI",
+        "circuit_2": 10,
+        "remarks_2": "Car Charger",
         "amps_2": 20
     }
   ]
