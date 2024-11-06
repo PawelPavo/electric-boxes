@@ -1,1 +1,51 @@
-
+[
+    {
+        "circuit": "A",
+        "remarks": "Front Bedroom Lights + Fan",
+        "amps": 15,
+        "circuit_2": 1,
+        "remarks_2": "HWH",
+        "amps_2": 60
+    },
+    {
+        "circuit": "B",
+        "remarks": "Master Bath Lights",
+        "amps": 15,
+        "circuit_2": 2,
+        "remarks_2": "HWH",
+        "amps_2": 60
+    },
+    {
+        "circuit": 5,
+        "remarks": "Kitchen + Dinning Lights",
+        "amps": 15,
+        "circuit_2": 6,
+        "remarks_2": "Stove",
+        "amps_2": 50
+    },
+    {
+        "circuit": 7,
+        "remarks": "Hallway + Livingroom + Porch Lights",
+        "amps": 15,
+        "circuit_2": 8,
+        "remarks_2": "Stove",
+        "amps_2": 50
+    },
+    
+    {
+        "circuit": 9,
+        "remarks": "Smoke Detectors",
+        "amps": 15,
+        "circuit_2": 10,
+        "remarks_2": "Master Bath GFCI + Mirror",
+        "amps_2": 20
+    },
+    {
+        "circuit": 11,
+        "remarks": "Master Bedroom Lights + Fan",
+        "amps": 15,
+        "circuit_2": 12,
+        "remarks_2": "Kitchen GFCI",
+        "amps_2": 20
+    }
+  ]
