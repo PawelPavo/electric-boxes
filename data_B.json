@@ -3,30 +3,30 @@
     {
         "circuit": "A",
         "remarks": "MAIN",
-        "amps": 15,
+        "amps": 70,
         "circuit_2": 1,
         "remarks_2": "Office Outlets",
-        "amps_2": 60
+        "amps_2": 20
     },
     {
         "circuit": "B",
         "remarks": "MAIN",
-        "amps": 15,
+        "amps": 70,
         "circuit_2": 2,
         "remarks_2": "Washer",
-        "amps_2": 60
+        "amps_2": 20
     },
     {
         "circuit": 3,
-        "remarks": "Dryer",
-        "amps": 15,
+        "remarks": "Car Charger",
+        "amps": 50,
         "circuit_2": 4,
         "remarks_2": "Bathroom Mirror + Dinning Outlets",
         "amps_2": 50
     },
     {
         "circuit": 5,
-        "remarks": "Dryer",
+        "remarks": "Car Charger",
         "amps": 15,
         "circuit_2": 6,
         "remarks_2": "Bathroom GFCI",
@@ -38,15 +38,15 @@
         "remarks": "Hallway + Bathroom Lights",
         "amps": 15,
         "circuit_2": 8,
-        "remarks_2": "Car Charger",
-        "amps_2": 20
+        "remarks_2": "Dryer",
+        "amps_2": 30
     },
     {
         "circuit": 9,
         "remarks": "Office Lights",
         "amps": 15,
         "circuit_2": 10,
-        "remarks_2": "Car Charger",
-        "amps_2": 20
+        "remarks_2": "Dryer",
+        "amps_2": 30
     }
   ]
