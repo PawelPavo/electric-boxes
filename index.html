@@ -20,7 +20,6 @@
             (async function panel_A() {
                 const res = await fetch('data.json');
                 const data = await res.json();
-                console.log(data)
                 let mainContainer = document.getElementById("myData");
                 for (let i = 0; i < data.length; i++) {
                     let tr = document.createElement("tr");
@@ -54,7 +53,6 @@
     (async function panel_B() {
         const res = await fetch('data_B.json');
         const data = await res.json();
-        console.log(data)
         let mainContainer = document.getElementById("myData_B");
         for (let i = 0; i < data.length; i++) {
             let tr = document.createElement("tr");
@@ -88,8 +86,7 @@
     (async function panel_C() {
         const res = await fetch('data_C.json');
         const data = await res.json();
-        console.log(data)
-        let mainContainer = document.getElementById("myData_B");
+        let mainContainer = document.getElementById("myData_C");
         for (let i = 0; i < data.length; i++) {
             let tr = document.createElement("tr");
             tr.innerHTML = `
@@ -197,7 +194,7 @@
                                                 <th scope="col">Remarks</th>
                                             </tr>
                                         </thead>
-                                        <tbody id="myData_B"></tbody>
+                                        <tbody id="myData_C"></tbody>
                                     </table>
                                 </div>
                             </div>
